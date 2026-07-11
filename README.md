@@ -42,7 +42,7 @@ Alternatively, right-click the file inside VS Code and select Open with Live Ser
 
 ---
 
-🔑 Managing Your API Key & Expiration
+# 🔑 Managing Your API Key & Expiration
 The dashboard initializes using a shared, free access tier credential from WeatherAPI. Because public free keys frequently experience rate limits or expiration over time, you can quickly plug in your own personal key to ensure uninterrupted performance:
 
 Go to WeatherAPI.com and register a free developer account.
