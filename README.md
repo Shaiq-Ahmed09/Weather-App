@@ -32,11 +32,15 @@ Because this application relies entirely on pure client-side technologies, it re
    cd Weather-Dashboard
    ```
 
+---
+
 # Launch the Code:
 
 Simply double-click your index.html file to run it natively inside any modern web browser.
 
 Alternatively, right-click the file inside VS Code and select Open with Live Server to see your changes refresh instantly as you modify the code.
+
+---
 
 🔑 Managing Your API Key & Expiration
 The dashboard initializes using a shared, free access tier credential from WeatherAPI. Because public free keys frequently experience rate limits or expiration over time, you can quickly plug in your own personal key to ensure uninterrupted performance:
@@ -51,3 +55,6 @@ Open your index.html file, scroll down into the <script> tag at the bottom, and 
 ```// Replace the placeholder string with your personal token
 const apiKey = "PASTE_YOUR_NEW_FREE_API_KEY_HERE";
 ```
+
+---
+
