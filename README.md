@@ -55,6 +55,3 @@ Open your index.html file, scroll down into the <script> tag at the bottom, and 
 ```// Replace the placeholder string with your personal token
 const apiKey = "PASTE_YOUR_NEW_FREE_API_KEY_HERE";
 ```
-
----
-
