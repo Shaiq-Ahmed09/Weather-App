@@ -1,10 +1,10 @@
-# 🌤️ Dynamic Weather Radar Dashboard
+#  Dynamic Weather Radar Dashboard
 
 A modern, responsive, single-page weather dashboard built with clean glassmorphism UI aesthetics. This project was developed as a hands-on implementation to learn asynchronous API consumption, JSON payload handling, and dynamic DOM manipulation using pure client-side web technologies.
 
 ---
 
-## 🚀 Features
+## Features
 
 *   **Real-Time Metrics:** Fetches up-to-date ambient metrics including current temperature, perceived ("feels like") temperature, humidity levels, wind speed, and the current UV index.
 *   **Asynchronous UX Flow:** Built using modern JavaScript `async/await` patterns with the native Fetch API to fetch data behind the scenes without refreshing the page.
@@ -13,7 +13,7 @@ A modern, responsive, single-page weather dashboard built with clean glassmorphi
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 *   **Structure:** HTML5 Semantic Markup
 *   **Styling:** CSS3 (Variables, Backdrop Blur Filter, Flexbox, Custom Grid)
@@ -22,7 +22,7 @@ A modern, responsive, single-page weather dashboard built with clean glassmorphi
 
 ---
 
-## ⚙️ How to Run the Project Locally
+## How to Run the Project Locally
 
 Because this application relies entirely on pure client-side technologies, it requires zero environment setups, compilers, or local software installations:
 
@@ -42,7 +42,7 @@ Alternatively, right-click the file inside VS Code and select Open with Live Ser
 
 ---
 
-# 🔑 Managing Your API Key & Expiration
+#  Managing Your API Key & Expiration
 The dashboard initializes using a shared, free access tier credential from WeatherAPI. Because public free keys frequently experience rate limits or expiration over time, you can quickly plug in your own personal key to ensure uninterrupted performance:
 
 Go to WeatherAPI.com and register a free developer account.
