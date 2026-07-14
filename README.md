@@ -1,4 +1,4 @@
-#  Dynamic Weather Radar Dashboard
+# Dynamic Weather Radar Dashboard
 
 A modern, responsive, single-page weather dashboard built with clean glassmorphism UI aesthetics. This project was developed as a hands-on implementation to learn asynchronous API consumption, JSON payload handling, and dynamic DOM manipulation using pure client-side web technologies.
 
@@ -42,7 +42,7 @@ Alternatively, right-click the file inside VS Code and select Open with Live Ser
 
 ---
 
-#  Managing Your API Key & Expiration
+# Managing Your API Key & Expiration
 The dashboard initializes using a shared, free access tier credential from WeatherAPI. Because public free keys frequently experience rate limits or expiration over time, you can quickly plug in your own personal key to ensure uninterrupted performance:
 
 Go to WeatherAPI.com and register a free developer account.
@@ -52,6 +52,7 @@ Access your account profile dashboard and copy your freshly generated API Key.
 Open your index.html file, scroll down into the <script> tag at the bottom, and update the value of the apiKey variable:
 
 **JavaScript**
+
 ```// Replace the placeholder string with your personal token
 const apiKey = "PASTE_YOUR_NEW_FREE_API_KEY_HERE";
 ```
